@@ -30,7 +30,9 @@ header {
 }
 
 .logo img {
-
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
 .logo span {
@@ -39,11 +41,27 @@ header {
 
 header nav {
   display: flex;
+  padding-right: 20px;
 }
 
 nav span {
-  display : inline-block;  
+  display: inline-block;
+  padding: 20px 10px;
 }
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: MediumAquamarine;
+}
+
+
 
 /* Main body */
 
