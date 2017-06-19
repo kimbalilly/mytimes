@@ -64,7 +64,7 @@ body {
 .content {
   display: flex;
   width: 1232px;
-  margin:0 auto 78px auto;
+  margin: 0 auto 78px auto;
   padding-top: 116px;
 }
 
@@ -72,6 +72,16 @@ body {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+}
+
+.body-copy {
+  margin-top: 16px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
 div {
@@ -113,16 +123,22 @@ div {
   text-align: left;
 }
 
+.feature-story .image-headline span {
+  margin-left: 20px;
+}
+
 .main-story {
   display: flex;
   width: 630px;
 }
 
-.main-story .body-copy p {
-  margin-top: 16px;
-}
-
 /* Columns 1 + 2 - text stories */
+
+.text-story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
 
 .text-story .body-copy {
   font-family: Georgia;
