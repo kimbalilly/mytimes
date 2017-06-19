@@ -63,32 +63,40 @@ a:hover {
 
 /* Main body */
 
+div {
+  border: 1px solid black;
+}
+
 .content {
   display: flex;
+  width: 1232px;
+  margin:0 auto 78px auto;
+  padding-top: 116px;
 }
 
 .main-story {
   display: flex;
   width: 630px;
-  border: 1px solid black;
 }
 
-.column-large {
+.column {
   display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
   width: 630px;
-  border: 1px solid black;
 }
 
-.column-medium {
-  display: flex;
+.column.medium {
   width: 300px;
-  border: 1px solid black;
 }
 
-.column-small {
-  display: flex;
+.column.small {
   width: 240px;
-  border: 1px solid black;  
 }
+
+
 
 /* Footer */
