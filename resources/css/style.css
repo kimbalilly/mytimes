@@ -61,8 +61,30 @@ a:hover {
   color: MediumAquamarine;
 }
 
-
-
 /* Main body */
+
+.content {
+  display: flex;
+}
+
+.main-story {
+  display: flex;
+  width: 630px;
+}
+
+.column-large {
+  display: flex;
+  width: 630px;
+}
+
+.column-medium {
+  display: flex;
+  width: 300px;
+}
+
+.column-small {
+  display: flex;
+  width: 240px;
+}
 
 /* Footer */
