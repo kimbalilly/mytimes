@@ -1,0 +1,12 @@
+body {
+  font-family: Georgia;
+  font-size:17px;
+  color: black;
+}
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
