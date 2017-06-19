@@ -1,11 +1,3 @@
-/* Universal Styles */
-
-body {
-  font-family: Georgia;
-  font-size:17px;
-  color: black;
-}
-
 /* Header */
 
 header {
@@ -61,10 +53,12 @@ a:hover {
   color: MediumAquamarine;
 }
 
-/* Main body */
+/* Universal Styles */
 
-div {
-  border: 1px solid black;
+body {
+  font-family: Georgia;
+  font-size:17px;
+  color: black;
 }
 
 .content {
@@ -74,16 +68,17 @@ div {
   padding-top: 116px;
 }
 
-.main-story {
-  display: flex;
-  width: 630px;
-}
-
 .column {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
 }
+
+div {
+  border: 1px solid black;
+}
+
+/* Column sizes */
 
 .column.large {
   width: 630px;
@@ -96,6 +91,61 @@ div {
 .column.small {
   width: 240px;
 }
+
+/* Column 1 - feature story */
+
+.image-headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+
+.feature-story .image-headline {
+  background-image: url(../images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.main-story {
+  display: flex;
+  width: 630px;
+}
+
+.main-story .body-copy p {
+  margin-top: 16px;
+}
+
+/* Columns 1 + 2 - text stories */
+
+.text-story .body-copy {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/* Columns 1 + 2 - image stories */
+
+.image-story .image-headline {
+  background-image: url(../images/img-story-2.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+/* Column 3 - news bites */
+
+
+
+
+
 
 
 
