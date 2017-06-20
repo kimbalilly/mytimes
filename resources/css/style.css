@@ -160,10 +160,12 @@ h2 {
 
  .image-headline-1 {
   background-image: url(../images/img-story-2.png);
+  display: flex;
 }
 
 .image-headline-2 {
   background-image: url(../images/img-story-3.png);
+  display: flex;
 }
 
 #image-content {
@@ -183,6 +185,7 @@ h2 {
 
 .image-headline-3 {
   background-image: url(../images/img-story-1.png);
+  display: flex;
 }
 
 
