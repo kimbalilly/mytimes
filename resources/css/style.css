@@ -102,7 +102,7 @@ div {
   width: 240px;
 }
 
-/* Column 1 - feature story */
+/* Column 1 */
 
 .image-headline {
   display: flex;
@@ -132,12 +132,14 @@ div {
   width: 630px;
 }
 
-/* Columns 1 + 2 - text stories */
-
-.text-story {
+.story {
   display: flex;
   flex-direction: column;
   width: 300px;
+}
+
+.stories .text-content {
+  height: 250px;
 }
 
 .text-story .body-copy {
@@ -146,17 +148,48 @@ div {
   color: black;
 }
 
-/* Columns 1 + 2 - image stories */
-
-.image-story .image-headline {
-  background-image: url(../images/img-story-2.png);
-  width: 630px;
+h2 {
   margin-top: 0;
-  font-size: 40px;
-  text-align: left;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
 }
 
-/* Column 3 - news bites */
+.body-copy {
+  margin-top: 16px;
+}
+
+ .image-headline-1 {
+  background-image: url(../images/img-story-2.png);
+}
+
+.image-headline-2 {
+  background-image: url(../images/img-story-3.png);
+}
+
+#image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+/* Column 2 */
+
+.image-headline-3 {
+  background-image: url(../images/img-story-4.png);
+}
+
+
+/* Column 3 */
 
 
 
